@@ -82,7 +82,7 @@ if (userConfirmation) {
           var userMathQuestionOne = prompt(mathQuestionOne);
           if (userMathQuestionOne.toLowerCase() == "d") {
             alert("Your answer is Correct");
-            correctAns +=1;
+          
           } else {
             alert("Wrong Answer");
           }
@@ -102,7 +102,7 @@ if (userConfirmation) {
           } else {
             alert("Wrong Answer");
           }
-          userConfirmation = false;
+          // userConfirmation = false;
           break;
           
         case "b":
@@ -130,7 +130,7 @@ if (userConfirmation) {
           } else {
             alert("Wrong Answer");
           }
-          userConfirmation = false;
+          // userConfirmation = false;
           break;
         case "c":
           alert("You are choosing English");
@@ -159,7 +159,7 @@ if (userConfirmation) {
             alert("Wrong Answer");
           }
 
-          userConfirmation = false;
+          // userConfirmation = false;
           break;
         case "d":
           alert("You are choosing History");
@@ -188,7 +188,7 @@ if (userConfirmation) {
             alert("Wrong Answer");
           }
 
-          userConfirmation = false;
+          // userConfirmation = false;
           break;
         case "e":
           alert("You are choosing Geography");
@@ -217,7 +217,7 @@ if (userConfirmation) {
             alert("Wrong Answer");
           }
 
-          userConfirmation = false;
+          // userConfirmation = false;
           break;
         case "f":
           alert("You are choosing GK");
@@ -245,11 +245,12 @@ if (userConfirmation) {
           } else {
             alert("Wrong Answer");
           }
-
-          userConfirmation = false;
+          // alert("Go to the console section to see your progress report.");
+          userConfirmation = true;
           break;
         default:
           alert("Please choose a correct option");
+
       }
     }
   }
